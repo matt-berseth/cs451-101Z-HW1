@@ -1,0 +1,8 @@
+{
+   "[python]": {
+      "editor.formatOnPaste": false,
+      "editor.rulers": [
+         88
+      ],
+   },
+}
