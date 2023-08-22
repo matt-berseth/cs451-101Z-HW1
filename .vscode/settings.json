@@ -5,4 +5,5 @@
          88
       ],
    },
+   "sarif-viewer.connectToGithubCodeScanning": "off",
 }

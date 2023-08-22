@@ -28,7 +28,7 @@ def main():
     y = np.loadtxt("./.data/y.txt")
     logging.info(f"X.shape: {X.shape}, y.shape: {y.shape}")
 
-    logging.info("")
+    logging.info("Print out the count of each label")
     for i in range(0, 10):
         count = np.sum(y==i)
         logging.info(f"{i}: {count} / {round(count/len(y)*100, 4)}%")
@@ -68,7 +68,8 @@ def main():
 
     # TODO(Task #3): train a DecisionTreeClassifier model using 'X' and 'y'
     # Report the classification accuracy of the model using the training data ('X' and 
-    # 'y')
+    # 'y'). Try out a few different configurations and evaluate which ones perform the
+    # best.
 
     # HINT: Review the documentation here for available options: 
     # https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
@@ -80,6 +81,8 @@ def main():
     # the .dot file using https://dreampuf.github.io/GraphvizOnline. Download the
     # image and provide a write up in your documentation that describes how the decision
     # tree is using rules to classify the digits.
+
+    # HINT: See https://github.com/matt-berseth/cs451-101Z-MODULE1/blob/main/decision_tree_classifier.py#L20
 
 
 if __name__ == "__main__":
