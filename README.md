@@ -16,8 +16,8 @@ The MNIST dataset. This dataset consists of 28x28 grayscale images of handwritte
 
 **Tasks:**
 
-1. Complete the 5 tasks in the `main.py` python file.
-1. Write a 1-2 page report summarizing the findings of tasks 4 and 5. Outline what model and corresponding hyper parameter settings do you believe create the best model. Provide evidence of why you believe this to be true. If you tried hyper parameter settings that did not work, include these results as well and provide insight into why you believed these attempts performed poorly.
+1. Complete the 4 tasks in the `main.py` python file.
+1. Write a 1-2 page report summarizing the findings of tasks 3 and 4. Outline what model and corresponding hyper parameter settings do you believe create the best model. Provide evidence of why you believe this to be true. If you tried hyper parameter settings that did not work, include these results as well and provide insight into why you believed these attempts performed poorly. Do you think this model will perform well on data that it was not trained on? For task 4, include a description of what decisions/rules the model is using to choose a classification.
 
 ---
 
