@@ -5,22 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "train.py",
+            "name": "main.py",
             "type": "python",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "program": "${workspaceFolder}/train.py",
+            "program": "${workspaceFolder}/main.py",
             "console": "integratedTerminal",
             "args": [],
         },
-        {
-            "name": "inference.py",
-            "type": "python",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "program": "${workspaceFolder}/inference.py",
-            "console": "integratedTerminal",
-            "args": [],
-        }
     ]
 }
